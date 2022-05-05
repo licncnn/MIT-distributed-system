@@ -1,7 +1,7 @@
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220505082452981.png" alt="image-20220505082452981" style="zoom:53%;" />
 
 
-xxx
+
 
 
 Git 配置
@@ -149,6 +149,36 @@ git branch -dr [remote/branch]
 每个人也可以有自己的分支  ， 每次写代码前先从主分支pull代码，然后提交到自己的分支，由管理员merge到主分支然后发布。
 
 主分支一般是发布版本。
+
+
+
+
+
+DEV用户如何开发
+
+1.如何更新自己的代码
+
+```
+git pull origin main   // 从main分支拉去更新自己的分支
+//modify
+git add .
+git commit 
+git push origin dev
+
+```
+
+master 合并
+
+```
+git checkout main
+git merge dev
+```
+
+
+
+
+
+
 
 
 
