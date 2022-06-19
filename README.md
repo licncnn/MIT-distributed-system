@@ -4,7 +4,7 @@ Link:https://github.com/licncnn/awesome-database-learning
 
 
 
-
+课程表：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
 
 MapReduce 参考：
